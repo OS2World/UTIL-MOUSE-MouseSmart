@@ -1,0 +1,35 @@
+Unit Tips;
+
+Interface
+
+Uses
+  Classes, Forms, Graphics, Buttons, StdCtrls;
+
+Type
+  TTips_DLG = Class (TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit1: TEdit;
+    Label4: TLabel;
+    Procedure Button1OnClick (Sender: TObject);
+  Private
+    {Insert private declarations here}
+  Public
+    {Insert public declarations here}
+  End;
+
+Var
+  Tips_DLG: TTips_DLG;
+
+Implementation
+
+Procedure TTips_DLG.Button1OnClick (Sender: TObject);
+Begin
+  Close;
+End;
+
+Initialization
+  RegisterClasses ([TTips_DLG, TButton, TLabel, TEdit]);
+End.

@@ -1,0 +1,58 @@
+The following is a translation of LIESMICH.TXT.  Thanks to Jim Holmes
+[71773,3276] for the translation from the German.
+
+******************************** BEGIN *********************************
+
+MOUSPEED.EXE                                                23.Marz 1995   
+
+This small program improves the speed/quickness of the mouse pointer
+in PM/WPS for OS/2 (only tested under Warp).  It will perform in an OS/2
+text window.  It is best entered in STARTUP.CMD.
+
+I have compiled this at the request of STARTER@hannover.bybyte.de
+
+To obtain a bit more flexibility, I have integrated command line
+parameters.
+
+Therefore, you can quickly and simply determine the command line values.  A
+short syntax pointer as well as the old and new command line values will be
+shown; however, these command line values are not needed.
+
+An example of the sytax reads:
+  MOUSPEED 3 2 20 4 == these are my examples of the slow standard values
+  MOUSPEED 5 2 10 5 == these are the default values of the original source
+  MOUSPEED 10 2 10 8 == makes the mouse movement correct
+
+The archive contains the subsequent files:
+  LIESMICH.TXT  (README.TXT)
+  MOUSPEED.EXE  (only the .EXE file will be required for operation)
+  MOU.C         (original Source)
+  MOUSPEED.C    (modified source)
+
+A copyright reference isn't given.  This is Freeware -- make of it what
+you will.
+
+Andreas        SCORPIO@hannover.bybyte.de
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+This small program originates from my inquiry about a faster mouse
+driver in the OS2GER forum.  In that forum, Oliver Ludwig (100065,1743) found
+an answer in C-source code taken from Peter Fitzimmons.  I don't own an OS/2
+compiler, so I have asked Andreas Just (Scorpio) in my local e-mail system
+(HANNOVER BY BYTE) to take over this part.  He has made and is still making,
+improvements to the code.  The results are as seen above.
+
+Wolfgang Mast 100064,2401  (starter@hannover.bybyte.de)
+
+********************************* END ***********************************
+
+Please note that the ZIP file I obtained did not include the MOU.C file as
+indicated above.  As of 1/26/96, the original file had been downloaded (and
+hopefully used) from the OS2USER forum on Compuserve by 218.  This file
+replaces the previously uploaded ZIP file, but its contents are the same
+except for this file.  I like the setting MOUSPEED 10 2 10 8:  It works very
+well for me at 1024x768 resolution.
+
+David Eckman 75430.1525 (davide@hal-pc.org)
+

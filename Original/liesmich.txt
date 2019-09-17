@@ -1,0 +1,56 @@
+MOUSPEED.EXE                                                 23.MÑrz 1995
+
+Dieses kleine Programm steigert die Geschwindigkeit des Mouse-Zeigers
+auf dem PM/WPS von OS/2 (nur getestet unter WARP).
+
+AusgefÅhrt wird es in einem OS/2 Textfenster.
+Am besten in die STARTUP.CMD eintragen.
+
+Auf Wunsch von STARTER@hannover.bybyte.de habe ich es compiliert.
+
+Um etwas mehr FlexibilitÑt zu erhalten habe ich noch die Mîglichkeit der
+ParamterÅbergabe integriert. So lassen sich schnell und einfach gewÅnschte
+Werte ermitteln. Eine kurze Syntaxanzeige sowie die alten und neuen Werte 
+werden auch noch angezeigt - wer es nicht braucht: MOUSPEED 1 2 3 4 >NUL
+
+Die Syntax lautet :
+     
+       MOUSPEED <a> <b> <c> <d>
+
+       <a> = First movement level   <b> = First level multiplier
+       <c> = Second movement level  <d> = Second level multiplier
+
+
+Beispiele:
+
+       MOUSPEED 3 2 20 4   sind bei mir z.B. die langsameren Standardwerte
+       MOUSPEED 5 2 10 5   sind die Vorgabewerte des Originalsource
+       und
+       MOUSPEED 10 2 10 8  macht der Maus richtig Beine ;-)
+ 
+
+
+
+Das Archiv enthÑlt folgende Files:
+
+        - LIESMICH.TXT
+        - MOUSPEED.EXE  (nur die EXE wird zum Betrieb benîtigt)
+        - MOU.C         (original Source)
+        - MOUSPEED.C    (modifizierter Source)
+
+Copyrighthinweis gab's nicht .... nun ist es Freeware - macht was Ihr wollt
+
+
+Andreas    SCORPIO@hannover.bybyte.de
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+
+Dieses kleine Programm geht zurÅck auf meine Anfrage nach einem schnelleren
+Maustreiber im OS2UGER - Forum. Dort hatte - als Antwort - Oliver Ludwig
+(100065,1743) einen im FIDO-Netz gefundenen C-Source von Peter Fitzsimmons 
+abgelegt. Da ich keinen OS/2 - Compiler besitze, habe ich in meiner lokalen
+Mailbox HANNOVER BY BYTE Andreas Just (Scorpio) gebeten, diesen Part zu 
+Åbernehmen. Das hat er dann auch getan und - wie er nun einmal ist - auch den
+Code noch gleich verbessert. Das Ergebnis sieht man oben.
+
+Wolfgang Mast 100064,2402 (starter@hannover.bybyte.de)

@@ -1,0 +1,13 @@
+Program MouseSmart;
+
+Uses
+  Forms, Graphics, Main, About;
+
+{$r MouseSmart.scu}
+
+Begin
+  Application.Create;
+  Application.CreateForm (TMain_DLG, Main_DLG);
+  Application.Run;
+  Application.Destroy;
+End.
